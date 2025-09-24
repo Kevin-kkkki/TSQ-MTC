@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=0 python test.py --batch_size=16  --exp_name='test' --data_dir="/media/at03/4tb/jiangrongkai_workspace/TSQ-MTC/TSQ_MTC_SAR_RGB/SAR_RGB" --ckpt_path='/media/at03/4tb/jiangrongkai_workspace/TSQ-MTC/TSQ_MTC_SAR_RGB/ckpts/lsq+_resnet34.pth'
+

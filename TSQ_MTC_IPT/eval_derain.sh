@@ -1,0 +1,25 @@
+CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.launch --master_port=65435 --nproc_per_node=1 pretrain.py \
+    --dir_data benchmark \
+    --pretrain ckpts/epoch_48.pt \
+    --data_train div2k \
+    --data_test Rain100L \
+    --data_range 1-800 \
+    --test_every 1 \
+    --scale 2+3+4+1+1+1 \
+    --save saved_ckpts/derain/ \
+    --model qipt \
+    --save_every 10 \
+    --num_queries 6 \
+    --lr 1e-6 \
+    --weight_decay 1e-4 \
+    --loss '1*L1' \
+    --epochs 30 \
+    --alltask \
+    --num_layers 12 \
+    --batch_size 1 \
+    --derain_dir benchmark/RainTrainL \
+    --test_only True \
+    --set_task 3 \
+    --save_results \
+    --save_gt \
+    --derain \

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python train.py --batch_size=16 --epochs=50 --lr=1e-4 --exp_name='resnet34' --data_dir="../../../dataset/SAR_RGB"

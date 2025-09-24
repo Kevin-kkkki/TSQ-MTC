@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python train.py --batch_size=16 --epochs=50 --lr=1e-4 --exp_name='resnet34_tsq_mtc' --data_dir="../../../dataset/SAR_RGB" --lr_epochs 25 --ckpt_path='../fp_resnet_multihead/result/resnet34.pth'

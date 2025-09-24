@@ -1,0 +1,93 @@
+absl-py==1.3.0
+astunparse==1.6.3
+-e git+ssh://git@github.com/Ree1s/Restormer.git@7f64973d697b31e997de6884befcdc4edd1d34b9#egg=basicsr
+cachetools==5.2.0
+certifi==2022.9.24
+chardet==4.0.0
+charset-normalizer==2.1.1
+clean-fid==0.1.35
+colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1666700638685/work
+contourpy==1.1.1
+cycler==0.12.1
+einops==0.6.1
+ffmpeg-python==0.2.0
+flatbuffers==23.1.21
+fonttools==4.53.0
+future==0.18.2
+fvcore==0.1.5.post20210915
+gast==0.4.0
+google-auth==2.15.0
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+grpcio==1.51.1
+h5py==3.11.0
+idna==2.10
+imageio==2.22.4
+imageio-ffmpeg==0.4.7
+importlib-metadata==5.1.0
+importlib_resources==6.4.0
+iopath==0.1.9
+joblib==1.2.0
+keras==2.11.0
+kiwisolver==1.4.5
+libclang==15.0.6.1
+lmdb==1.4.1
+lpips==0.1.4
+Markdown==3.4.1
+MarkupSafe==2.1.1
+matplotlib==3.7.5
+mkl-fft==1.3.1
+mkl-random==1.2.2
+mkl-service==2.4.0
+networkx==2.8.8
+numpy==1.23.5
+oauthlib==3.2.2
+opencv-python-headless @ file:///data/repo/code/gsc/opencv_python_headless-4.8.1.78-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+opt-einsum==3.3.0
+packaging==24.1
+pandas==1.5.2
+Pillow==9.3.0
+portalocker @ file:///home/conda/feedstock_root/build_artifacts/portalocker_1666867940317/work
+protobuf==3.19.6
+protonets==0.0.1
+ptflops==0.7.2.2
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+pytorch3d==0.7.1
+pytz==2022.6
+PyWavelets==1.4.1
+PyYAML @ file:///home/conda/feedstock_root/build_artifacts/pyyaml_1666772387080/work
+requests==2.25.1
+requests-oauthlib==1.3.1
+rsa==4.9
+scikit-image==0.19.3
+scikit-learn==1.1.3
+scipy==1.10.1
+seaborn==0.13.2
+six==1.16.0
+tabulate @ file:///home/conda/feedstock_root/build_artifacts/tabulate_1665138452165/work
+tensorboard==2.11.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.5.1
+tensorflow-estimator==2.11.0
+tensorflow-io-gcs-filesystem==0.30.0
+termcolor @ file:///home/conda/feedstock_root/build_artifacts/termcolor_1669015807632/work
+thop==0.1.1.post2209072238
+threadpoolctl==3.1.0
+tifffile==2022.10.10
+torch==1.10.1
+torchattacks==3.4.0
+torchaudio==0.10.1
+torchinfo==1.8.0
+torchvision==0.11.2
+tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1662214488106/work
+typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/typing_extensions_1665144421445/work
+urllib3==1.26.13
+Werkzeug==2.2.2
+wrapt==1.14.1
+yacs @ file:///home/conda/feedstock_root/build_artifacts/yacs_1645705974477/work
+youtube-dl==2021.12.17
+zipp==3.19.2
